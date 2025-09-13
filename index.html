@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mixt Market City - Épicerie pays de l'Est à Toulouse</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixt Market City - Épicerie de l'Est à Toulouse</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    section { padding: 40px; max-width: 1000px; margin: auto; }
+    h2 { color: #2c3e50; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    .map { width: 100%; height: 400px; border: 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mixt Market City</h1>
+  <p>Épicerie de produits d’Europe de l’Est à Toulouse</p>
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#produits">Produits</a>
+    <a href="#horaires">Horaires</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>Bienvenue chez <strong>Mixt Market City</strong>, votre épicerie spécialisée dans les produits d’Europe de l’Est. 
+     Nous vous proposons une large sélection de produits traditionnels et authentiques, directement importés.</p>
+</section>
+
+<section id="produits">
+  <h2>Nos produits</h2>
+  <ul>
+    <li>Produits frais et surgelés</li>
+    <li>Épicerie sucrée et salée</li>
+    <li>Boissons traditionnelles</li>
+    <li>Produits artisanaux</li>
+  </ul>
+</section>
+
+<section id="horaires">
+  <h2>Horaires</h2>
+  <p>Lundi - Samedi : 9h00 - 20h00</p>
+  <p>Dimanche : 10h00 - 14h00</p>
+</section>
+
+<section id="contact">
+  <h2>Contact & Localisation</h2>
+  <p>📍 Adresse : 55 Rue de l’Ukraine, 31500 Toulouse</p>
+  <p>📞 Téléphone : 06 12 34 56 78</p>
+  <p>✉️ Email : contact@mixtmarketcity.fr</p>
+  
+  <iframe 
+    class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.5821363093224!2d1.4283679!3d43.6334271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aea4b2b8b0855f%3A0x6cdc5f27355aa9f!2sMixt%20Market%20City!5e0!3m2!1sfr!2sfr!4v1694287221732"
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
+</section>
+
+<footer>
+  <p>&copy; 2025 Mixt Market City - Tous droits réservés</p>
+</footer>
+
+</body>
 </html>
